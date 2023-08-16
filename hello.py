@@ -14,23 +14,30 @@ como usar:
         ou
         ./hello.py
 """
-# __*__ => dunder
+# __*__ => variáveis under
 __version__ = "0.8.1" 
 __author_ = "lucas machado"
 __license__ = "unlicensed"
+import os
 
 # indentifica a variável name e executa caso "main" (feio)
 # if __name__ == "__main__": 
 
 # seta a linguagem atual
-current-language = "en_US"
+current_language = os.getenv("LANG", "pt_BR")[:5]
 
 # armazena texto na var
 msg = "hello world"
 
 # condicional linguagem
-if current-language == "pt_BR":
+if current_language == "pt_BR":
     msg = "olá mundo"
+elif current_language == "it_IT":
+    msg = "ciao, mondo"
+elif current_language == "es_SP":
+    msg = "hola mundo"
+elif current_language == "fr_FR":
+    msg = "bonjour monde"
 
 
 # imprime a var
