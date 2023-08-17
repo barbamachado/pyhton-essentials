@@ -18,6 +18,8 @@ como usar:
 __version__ = "0.8.1" 
 __author_ = "lucas machado"
 __license__ = "unlicensed"
+
+# importar pacote
 import os
 
 # indentifica a variável name e executa caso "main" (feio)
