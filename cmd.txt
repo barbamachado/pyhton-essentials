@@ -1,0 +1,7 @@
+  ?         -> Introduction and overview of IPython's features (this screen).
+  object?   -> Details about 'object'.
+  object??  -> More detailed, verbose information about 'object'.
+  %quickref -> Quick reference of all IPython specific syntax and magics.
+  help      -> Access Python's own help system.
+
+
